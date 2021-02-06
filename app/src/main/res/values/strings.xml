@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KChat</string>
+    <string name="new_account">New Account</string>
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="already_own_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Don\'t have an account?</string>
+</resources>

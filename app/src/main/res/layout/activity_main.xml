@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight"
+            android:textAllCaps="true"
+            android:layout_marginBottom="50sp"
+            android:text="@string/new_account"/>
+
+        <EditText
+            android:id="@+id/username_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:background="@color/colorLight"
+            android:textSize="25sp"
+            android:inputType="textPersonName"
+            android:padding="10sp"
+            android:layout_marginBottom="20sp"
+            android:autofillHints="true" />
+
+        <EditText
+            android:id="@+id/email_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:background="@color/colorLight"
+            android:textSize="25sp"
+            android:inputType="textEmailAddress"
+            android:padding="10sp"
+            android:layout_marginBottom="20sp"
+            android:autofillHints="true" />
+
+        <EditText
+            android:id="@+id/password_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:background="@color/colorLight"
+            android:textSize="25sp"
+            android:inputType="textPassword"
+            android:padding="10sp"
+            android:layout_marginBottom="20sp"
+            android:autofillHints="true" />
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sing_up"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="20sp"
+            android:textSize="25sp"
+            android:padding="10sp" />
+
+        <TextView
+            android:id="@+id/already_own_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/already_own_account"
+            android:textColor="@color/colorLight"
+            android:textSize="20sp"
+            android:layout_marginTop="15sp"
+            android:textAlignment="center" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
