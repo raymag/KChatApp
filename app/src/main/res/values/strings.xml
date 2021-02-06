@@ -8,4 +8,5 @@
     <string name="already_own_account">Already have an account?</string>
     <string name="sign_in">Sign In</string>
     <string name="no_account">Don\'t have an account?</string>
+    <string name="select_photo">Select Photo</string>
 </resources>
